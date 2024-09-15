@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    /* Background image settings */
+    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWs4bjNqM290eXB2MXY4YWRtb2ZpZGU4ZmlycXd1bTJiYnN2ZTJnNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tdC6N1RKNp4swre2JY/giphy.webp');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Center the image in the viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    
+        font-family: 'Arial', sans-serif;
+
+        background-size: cover;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    
+    .index {
+        text-align: center;
+        padding: 50px;
+    }
+    
+
+
+/* Style for the centered container */
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%; /* Makes the container responsive */
+    background-color: #fff; /* Background color for the container */
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+    margin: 20px; /* Prevents the container from touching the screen edges on smaller screens */
+}
+
+.container2 {
+    
+    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    height: 88vh;
+
+  
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% transparency */
+    color: white; /* Text color unaffected */
+    
+        margin: auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ 
+}
+
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], textarea {
+    width: 96%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.optional {
+    font-size: 12px;
+    color: grey;
+}
+
+.redirect {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redirect a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.redirect a:hover {
+    text-decoration: underline;
+}
+.textarea  
+{  
+   font-family:"Times New Roman", Times, serif;  
+   font-size: 12px;   
+}
+.form-group textarea {
+    font-family: 'Arial', sans-serif; 
+    font-size: 14px; 
+}
+
+
+.index-pictures {
+    display: flex;
+    justify-content: center;
+}
+
+.picture-margins {
+    margin: 8%;
+    transition: transform 0.3s ease-in-out;
+}
+.picture-margins:hover {
+    transform: scale(1.1);
+}
+
+.picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    object-fit: cover;
+    box-shadow: 0 0 10px 10px rgb(0, 0, 0);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.picture:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 20px rgba(137, 137, 137, 0.6);
+}
+
+
+
+.index-name{
+    font-family: Georgia, serif;
+
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #f8f8f8;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 10px rgb(255, 255, 255);
+
+}
+.index-name:hover{
+    color: gold;
+    text-shadow: 0px 0px 15px rgb(255, 232, 104);
+}
+.index button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #000000;
+  color: #000000;
+  background-color: white;
+  border-radius: 50px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+
+.index button:hover {
+  background-color: #000000;
+  color: white;
+  border-color: #ffffff;
+}
